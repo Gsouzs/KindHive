@@ -1,0 +1,163 @@
+{
+  "causas": {
+    "1": {
+      "nome_causa": "Reconstrução de Moradias em Rio Bonito do Iguaçu",
+      "meta": 25000,
+      "empresa": "VerdeVivo Sustentabilidade",
+      "descricao": "Auxiliar famílias que perderam parte ou toda a sua casa, financiando materiais básicos de construção e pequenas reformas.",
+      "local": "geral"
+    },
+
+    "2": {
+      "nome_causa": "Apoio às Famílias Desabrigadas do Centro",
+      "meta": 15000,
+      "empresa": "Instituto Caminho Seguro",
+      "descricao": "Fornecer ajuda financeira direta às famílias desalojadas da região central.",
+      "local": "centro"
+    },
+
+    "3": {
+      "nome_causa": "Recuperação de Imóveis Próximos à Praça Central",
+      "meta": 20000,
+      "empresa": "Constrular Comunitária",
+      "descricao": "Reforma de casas e pequenos comércios afetados na área central da cidade.",
+      "local": "centro"
+    },
+
+    "4": {
+      "nome_causa": "Reconstrução de Casas no Bairro Seminário",
+      "meta": 18000,
+      "empresa": "Fundação Novo Horizonte",
+      "descricao": "Apoiar reformas estruturais de moradias atingidas no Bairro Seminário.",
+      "local": "seminario"
+    },
+
+    "5": {
+      "nome_causa": "Apoio às Famílias em Situação de Risco – Seminário",
+      "meta": 12000,
+      "empresa": "Rede Solidária Esperança",
+      "descricao": "Garantir auxílio emergencial para famílias com necessidades urgentes.",
+      "local": "seminario"
+    },
+
+    "6": {
+      "nome_causa": "Fundo de Ajuda às Famílias da Cohapar",
+      "meta": 10000,
+      "empresa": "Ação Comunitária Vida Nova",
+      "descricao": "Suporte financeiro para reconstrução de casas e reposição de itens essenciais.",
+      "local": "cohapar"
+    },
+
+    "7": {
+      "nome_causa": "Recuperação de Casas Danificadas na Cohapar",
+      "meta": 22000,
+      "empresa": "Instituto Mãos Unidas",
+      "descricao": "Refazer estruturas comprometidas, como telhados e paredes.",
+      "local": "cohapar"
+    },
+
+    "8": {
+      "nome_causa": "Fundo Solidário da Vila Guarani",
+      "meta": 10000,
+      "empresa": "ONG Semeando o Bem",
+      "descricao": "Auxiliar famílias vulneráveis da Vila Guarani na reposição de bens essenciais.",
+      "local": "vila_guarani"
+    },
+
+    "9": {
+      "nome_causa": "Reformas Essenciais na Vila Guarani",
+      "meta": 17000,
+      "empresa": "Projeto Construir Esperança",
+      "descricao": "Reformas de telhados, pisos e muros danificados.",
+      "local": "vila_guarani"
+    },
+
+    "10": {
+      "nome_causa": "Apoio aos Agricultores do Assentamento Ireno Alves",
+      "meta": 20000,
+      "empresa": "Cooperativa Raiz Forte",
+      "descricao": "Auxiliar produtores na recuperação de estufas, galpões e equipamentos.",
+      "local": "ireno_alves"
+    },
+
+    "11": {
+      "nome_causa": "Fundo para Famílias do Campo – Ireno Alves",
+      "meta": 14000,
+      "empresa": "Instituto Terra Viva",
+      "descricao": "Suprir necessidades urgentes de famílias de baixa renda na zona rural.",
+      "local": "ireno_alves"
+    },
+
+    "12": {
+      "nome_causa": "Reconstrução de Estruturas no Assentamento Marcos Freire",
+      "meta": 18000,
+      "empresa": "Associação AgroSolidária",
+      "descricao": "Recuperar casas, currais e estruturas agrícolas afetadas.",
+      "local": "marcos_freire"
+    },
+
+    "13": {
+      "nome_causa": "Apoio Financeiro a Agricultores do Marcos Freire",
+      "meta": 12000,
+      "empresa": "Fundação Campo Unido",
+      "descricao": "Auxílio na compra de materiais, sementes e ferramentas essenciais.",
+      "local": "marcos_freire"
+    },
+
+    "14": {
+      "nome_causa": "Recuperação da Comunidade da Linha Gaúcha",
+      "meta": 16000,
+      "empresa": "Projeto Comunidade Viva",
+      "descricao": "Reparar casas e estradas comunitárias prejudicadas.",
+      "local": "linha_gaucha"
+    },
+
+    "15": {
+      "nome_causa": "Fundo Emergencial – Linha Gaúcha",
+      "meta": 9000,
+      "empresa": "Ação Social Luz do Sul",
+      "descricao": "Suporte imediato para famílias com perdas materiais urgentes.",
+      "local": "linha_gaucha"
+    },
+
+    "16": {
+      "nome_causa": "Apoio às Famílias da Linha Capanema",
+      "meta": 11000,
+      "empresa": "Coletivo União Rural",
+      "descricao": "Auxílio para reposição de eletrodomésticos e móveis essenciais.",
+      "local": "linha_capanema"
+    },
+
+    "17": {
+      "nome_causa": "Recuperação Rural – Linha Capanema",
+      "meta": 19000,
+      "empresa": "Instituto Renovar Rural",
+      "descricao": "Reconstrução de estruturas agrícolas e suporte às famílias afetadas.",
+      "local": "linha_capanema"
+    },
+
+    "18": {
+      "nome_causa": "Fundo para Estradas Rurais de Rio Bonito",
+      "meta": 22000,
+      "empresa": "Projeto Estrada Forte",
+      "descricao": "Restaurar vias essenciais para transporte, saúde e acesso comunitário.",
+      "local": "rural"
+    },
+
+    "19": {
+      "nome_causa": "Campanha Campo Unido – Suporte aos Agricultores",
+      "meta": 20000,
+      "empresa": "AgroVida Proteção",
+      "descricao": "Apoio financeiro direto para agricultores recuperarem sua produção.",
+      "local": "rural"
+    },
+
+    "20": {
+      "nome_causa": "Cesta Solidária – Rio Bonito do Iguaçu",
+      "meta": 8000,
+      "empresa": "Instituto Pão da Vida",
+      "descricao": "Doações para compra de alimentos e kits de higiene para famílias carentes.",
+      "local": "geral"
+    }
+  }
+}
