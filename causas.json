@@ -5,7 +5,8 @@
       "meta": 25000,
       "empresa": "VerdeVivo Sustentabilidade",
       "descricao": "Auxiliar famílias que perderam parte ou toda a sua casa, financiando materiais básicos de construção e pequenas reformas.",
-      "local": "geral"
+      "local": "geral",
+      "arrecadado": 5000
     },
 
     "2": {
@@ -13,7 +14,8 @@
       "meta": 15000,
       "empresa": "Instituto Caminho Seguro",
       "descricao": "Fornecer ajuda financeira direta às famílias desalojadas da região central.",
-      "local": "centro"
+      "local": "centro",
+      "arrecadado": 5000
     },
 
     "3": {
@@ -22,6 +24,8 @@
       "empresa": "Constrular Comunitária",
       "descricao": "Reforma de casas e pequenos comércios afetados na área central da cidade.",
       "local": "centro"
+    ,
+      "arrecadado": 5000
     },
 
     "4": {
@@ -30,6 +34,8 @@
       "empresa": "Fundação Novo Horizonte",
       "descricao": "Apoiar reformas estruturais de moradias atingidas no Bairro Seminário.",
       "local": "seminario"
+    ,
+      "arrecadado": 5000
     },
 
     "5": {
@@ -38,6 +44,8 @@
       "empresa": "Rede Solidária Esperança",
       "descricao": "Garantir auxílio emergencial para famílias com necessidades urgentes.",
       "local": "seminario"
+    ,
+      "arrecadado": 5000
     },
 
     "6": {
@@ -46,6 +54,8 @@
       "empresa": "Ação Comunitária Vida Nova",
       "descricao": "Suporte financeiro para reconstrução de casas e reposição de itens essenciais.",
       "local": "cohapar"
+    ,
+      "arrecadado": 5000
     },
 
     "7": {
@@ -54,6 +64,8 @@
       "empresa": "Instituto Mãos Unidas",
       "descricao": "Refazer estruturas comprometidas, como telhados e paredes.",
       "local": "cohapar"
+    ,
+      "arrecadado": 5000
     },
 
     "8": {
@@ -62,6 +74,8 @@
       "empresa": "ONG Semeando o Bem",
       "descricao": "Auxiliar famílias vulneráveis da Vila Guarani na reposição de bens essenciais.",
       "local": "vila_guarani"
+    ,
+      "arrecadado": 5000
     },
 
     "9": {
@@ -70,6 +84,8 @@
       "empresa": "Projeto Construir Esperança",
       "descricao": "Reformas de telhados, pisos e muros danificados.",
       "local": "vila_guarani"
+    ,
+      "arrecadado": 5000
     },
 
     "10": {
@@ -78,6 +94,8 @@
       "empresa": "Cooperativa Raiz Forte",
       "descricao": "Auxiliar produtores na recuperação de estufas, galpões e equipamentos.",
       "local": "ireno_alves"
+    ,
+      "arrecadado": 5000
     },
 
     "11": {
@@ -86,6 +104,8 @@
       "empresa": "Instituto Terra Viva",
       "descricao": "Suprir necessidades urgentes de famílias de baixa renda na zona rural.",
       "local": "ireno_alves"
+    ,
+      "arrecadado": 5000
     },
 
     "12": {
@@ -94,6 +114,8 @@
       "empresa": "Associação AgroSolidária",
       "descricao": "Recuperar casas, currais e estruturas agrícolas afetadas.",
       "local": "marcos_freire"
+    ,
+      "arrecadado": 5000
     },
 
     "13": {
@@ -102,6 +124,8 @@
       "empresa": "Fundação Campo Unido",
       "descricao": "Auxílio na compra de materiais, sementes e ferramentas essenciais.",
       "local": "marcos_freire"
+    ,
+      "arrecadado": 5000
     },
 
     "14": {
@@ -110,6 +134,8 @@
       "empresa": "Projeto Comunidade Viva",
       "descricao": "Reparar casas e estradas comunitárias prejudicadas.",
       "local": "linha_gaucha"
+    ,
+      "arrecadado": 5000
     },
 
     "15": {
@@ -118,6 +144,8 @@
       "empresa": "Ação Social Luz do Sul",
       "descricao": "Suporte imediato para famílias com perdas materiais urgentes.",
       "local": "linha_gaucha"
+    ,
+      "arrecadado": 5000
     },
 
     "16": {
@@ -126,6 +154,8 @@
       "empresa": "Coletivo União Rural",
       "descricao": "Auxílio para reposição de eletrodomésticos e móveis essenciais.",
       "local": "linha_capanema"
+    ,
+      "arrecadado": 5000
     },
 
     "17": {
@@ -134,6 +164,8 @@
       "empresa": "Instituto Renovar Rural",
       "descricao": "Reconstrução de estruturas agrícolas e suporte às famílias afetadas.",
       "local": "linha_capanema"
+    ,
+      "arrecadado": 5000
     },
 
     "18": {
@@ -142,6 +174,8 @@
       "empresa": "Projeto Estrada Forte",
       "descricao": "Restaurar vias essenciais para transporte, saúde e acesso comunitário.",
       "local": "rural"
+    ,
+      "arrecadado": 5000
     },
 
     "19": {
@@ -150,6 +184,8 @@
       "empresa": "AgroVida Proteção",
       "descricao": "Apoio financeiro direto para agricultores recuperarem sua produção.",
       "local": "rural"
+    ,
+      "arrecadado": 5000
     },
 
     "20": {

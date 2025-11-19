@@ -13,6 +13,8 @@
 
         html, body {
             height: 100vh;
+            background-color: black;
+            color:black
         }
 
         /* ===== HEADER ===== */
@@ -20,10 +22,8 @@
             background-color: #222B35;
             color: #ffffff;
             padding: 15px;
-
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-
             box-shadow: #000 0px -1px 20px;
         }
 
@@ -49,6 +49,7 @@
         /* ===== MAIN ===== */
         main {
             padding: 20px;
+            background-color: #284559;
         }
 
         main h1 {
@@ -56,6 +57,8 @@
         }
 
         #cards_container {
+            position: relative;
+            margin-top: 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -64,9 +67,10 @@
 
         /* ===== CARD ===== */
         .cards {
+            position:relative;
+            float:left;
             width: 100%;
-            height: 100px;
-
+            height: 120px;
             background-color: rgb(0, 192, 192);
             border-radius: 20px;
             padding: 10px;
@@ -80,22 +84,26 @@
 
         .cards h2 {
             color: white;
-            font-size: 12px;
+            font-size: 14px;
+            font-family: "Louis George Cafe";
         }
 
         .cards h3 {
             color: rgb(80, 80, 80);
-            font-size: 10px;
+            font-size: 14px;
+            font-family: "Louis George Cafe";
         }
 
         /* Área do título da causa */
         .causa-container {
             grid-row: 1;
+            padding-bottom: 0;
         }
 
         /* Área da barra de meta */
         .meta-container {
-            grid-row: 3;
+            position:relative;
+            float:left;
             font-family: Arial, sans-serif;
             width: 80%;
         }
@@ -117,16 +125,15 @@
 
         .progresso {
             height: 100%;
-            background: #4CAF50;
+            background: #49644a;
             width: 0%;
             transition: width 0.5s ease;
         }
 
         /* Botão DOAR */
         .container-abrir {
-            grid-row: 3;
-            grid-column: 2;
-
+            position:relative;
+            float:right;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -140,3 +147,17 @@
             border: 1px solid #222B35;
             border-radius: 10px;
         }
+        .btn-doar {
+            position:relative;
+            float:right;
+            background-color: #222B35;
+            color: white;
+            border: none;
+            border-radius: 15px;
+            padding: 30px 20px;*/
+            cursor: pointer;
+            font-size: 14px;
+            height:100%;
+            width:80%;
+        }
+

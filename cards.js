@@ -22,9 +22,6 @@ function criarCardParaCausa(id, causa) {
     <div class="causa-container">
       <h2>${nome}</h2>
       <h3>${empresa} • ${local.toString().replace(/_/g, ' ')}</h3>
-    </div>
-
-    <div class="meta-container">
       <div class="meta-info">
         <span>Meta: <strong>${formatCurrency(meta)}/${formatCurrency(arrecadado)}</strong></span>
         <span class="meta-percent">
@@ -33,8 +30,8 @@ function criarCardParaCausa(id, causa) {
         <br>
       </div>
 
-      <div class="barra-meta" aria-label="Progresso da meta">
-        <div class="progresso" style="width: ${porcentagem}%;"></div>
+      <div class="progress">
+        <div class="progresso" role="progressbar" style="width: ${porcentagem}%;" aria-valuenow="${porcentagem}" aria-valuemin="0" aria-valuemax="100"></div>
       </div>
 
     </div>
