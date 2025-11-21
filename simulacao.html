@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulação de Pagamento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="Logomarca">
+            <img src="assets/Logomarca.svg" height="50px" draggable="false">
+        </div>
+
+        <div id="Contatos">
+            <div id="itens">
+                <img src="assets/icone-whatsapp.svg" width="18px" draggable="false">
+                <img src="assets/icone-instagram.svg" width="18px" draggable="false">
+                <img src="assets/icone-facebook.svg" width="18px" draggable="false">
+            </div>
+        </div>
+    </header>
+
+
+<main>
+
+  <h2>Simulação de Pagamento</h2>
+    
+    <p><strong>Nome:</strong> <span id="nomePessoa"></span></p>
+    <p><strong>E-mail:</strong> <span id="emailPessoa"></span></p>
+    <p id="valor"></p>
+
+
+  <button id="btnConfirmar" 
+    style="margin-top: 20px; width: 100%; padding: 15px; background: #00C46C; color: white; border-radius: 12px; font-size: 1.1rem; border: none;">
+    Confirmar Pagamento
+  </button>
+
+  <script type="module" src="simulacao.js"></script>
+  </main>
+</body>
+</html>

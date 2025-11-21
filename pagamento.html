@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div id="Logomarca">
+            <img src="assets/Logomarca.svg" height="50px" draggable="false">
+        </div>
+
+        <div id="Contatos">
+            <div id="itens">
+                <img src="assets/icone-whatsapp.svg" width="18px" draggable="false">
+                <img src="assets/icone-instagram.svg" width="18px" draggable="false">
+                <img src="assets/icone-facebook.svg" width="18px" draggable="false">
+            </div>
+        </div>
+    </header>
+
+
+  <main style="padding: 20px;">
+    
+    <div id="causa-expandido">
+        <h3 id="nomeCausa">Carregando...</h2>
+        <p id="descricaoCausa"></p>
+        <p id="empresaLocal"></p>
+    </div>
+
+
+
+    <label id="Inputs-label">Digite suas informações</label>
+    <div id="inputs">
+        <input id="Nome" type="text" min="1" placeholder="Seu nome..." style="width: 100%; padding: 12px; font-size: 1.1rem; border-radius: 12px; margin-top: 10px;">
+        <input id="E-mail" type="email" min="1" placeholder="E-mail" style="width: 100%; padding: 12px; font-size: 1.1rem; border-radius: 12px; margin-top: 10px;">
+        <input id="Valor" type="number" min="1" placeholder="R$" style="width: 100%; padding: 12px; font-size: 1.1rem; border-radius: 12px; margin-top: 10px;">
+    </div>    
+    <button id="btnPagar" style="cursor: pointer;margin-top: 20px; width: 100%; padding: 15px; background: #0B3C49; color: white; border-radius: 12px; font-size: 1.1rem; border: none;">
+      Prosseguir com o Pagamento
+    </button>
+  </main>
+
+  <script type="module" src="pagamento.js"></script>
+</body>
+</html>

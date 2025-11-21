@@ -147,7 +147,7 @@ main {
 
 
 .causa-info {
-    flex-grow: 1; /* cresce livremente */
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -159,4 +159,46 @@ main {
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+
+#Inputs-label {
+    margin: 15px 0;
+    display: block;
+}
+
+#causa-expandido {
+    background-color: rgb(0, 193, 236);
+    padding: 15px;
+    color: #fff;
+
+    display: grid;
+    grid-template-rows: 1.5fr 1fr 1fr;
+    align-items: center;
+    border-radius: 15px;
+
+    position: relative; 
+    overflow: hidden;
+    z-index: 1;
+}
+
+#causa-expandido::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("assets/care-treatment-heart-svgrepo-com.svg");
+    background-repeat: repeat;
+    background-size: 60px;
+    background-position: 0 0, 80px 80px;
+    background-repeat: space;
+    
+    opacity: 0.15;
+    z-index: 3;
+}
+
+
+#causa-expandido * {
+    position: relative;
+    z-index: 2;
 }

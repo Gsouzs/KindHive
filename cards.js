@@ -44,6 +44,15 @@ function criarCardParaCausa(id, causa, arrecadado) {
     </div>
   `;
 
+
+
+
+  card.addEventListener("click", () => {
+    window.location.href = `pagamento.html?id=${id}`;
+  });
+
+
+
   return card;
 }
 
@@ -52,7 +61,7 @@ async function carregarCausas() {
   container.innerHTML = "";
 
   try {
-    // 1️⃣ Pega todas as causas
+
     const causasRef = collection(db, "causas");
     const snapshotCausas = await getDocs(causasRef);
 
@@ -60,17 +69,14 @@ async function carregarCausas() {
       const causaId = docSnap.id;
       const dadosCausa = docSnap.data();
 
-      // 2️⃣ Pega todas as doações da subcoleção da causa
       const doacoesRef = collection(db, `causas/${causaId}/doacoes`);
       const snapshotDoacoes = await getDocs(doacoesRef);
 
-      // 3️⃣ Soma os valores
       let arrecadado = 0;
       snapshotDoacoes.forEach((doacao) => {
         arrecadado += Number(doacao.data().Valor || 0);
       });
 
-      // 4️⃣ Cria e adiciona o card
       const card = criarCardParaCausa(causaId, dadosCausa, arrecadado);
       container.appendChild(card);
     }
