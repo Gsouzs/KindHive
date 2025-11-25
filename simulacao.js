@@ -100,6 +100,25 @@ btnConfirmar.addEventListener("click", () => {
 });
 
 btnCopiar.addEventListener("click", async () => {
+
+
+  // Rate limit adcionado para evitar diversos envios em sequência, o mais interessante seria gravar os registros no DB e bloquear a doação pelo ip do client direto das regras do DB por regras e retorno de sucesso ou falha
+  // OWASP A07 – Identification and Authentication Failures
+
+  const lastDonation = localStorage.getItem("lastDonationTime");
+  const now = Date.now();
+
+  if (lastDonation && now - lastDonation < 30_000) { 
+    alert("Aguarde alguns segundos antes de tentar novamente.");
+    return;
+  }
+
+  localStorage.setItem("lastDonationTime", now);
+
+  // Boqueia o botão de pagamento por 30 segundos
+
+
+
   try {
     await navigator.clipboard.writeText(pixCodeEl.value);
     btnCopiar.textContent = "Copiado!";
