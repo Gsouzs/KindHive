@@ -15,9 +15,9 @@
 
         <div id="Contatos">
             <div id="itens">
-                <img src="assets/icone-whatsapp.svg" width="18px" draggable="false">
-                <img src="assets/icone-instagram.svg" width="18px" draggable="false">
-                <img src="assets/icone-facebook.svg" width="18px" draggable="false">
+                <img class= "rede-social" src="assets/icone-whatsapp.svg" width="18px" draggable="false">
+                <img class= "rede-social" src="assets/icone-instagram.svg" width="18px" draggable="false">
+                <img class= "rede-social" src="assets/icone-facebook.svg" width="18px" draggable="false">
             </div>
         </div>
     </header>
@@ -73,6 +73,16 @@
 
 
   </main>
+  
+  <script>
+  document.querySelectorAll(".rede-social").forEach(function(elemento) {
+    elemento.addEventListener("click", function(event) {
+        event.preventDefault();
+        alert("Este site é de cunho educacional, por este motivo, este botão está desabilitado");
+    });
+});
+
+</script>
 
   <script type="module" src="pagamento.js"></script>
 </body>
